@@ -1,35 +1,134 @@
 body {
-    background-color: lightblue;
+    background-color: #e6f2ff;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+}
+
+li {
+	display: inline-block;
+}
+
+a.nav:link, visited {
+    color: blue;
+    font-family: Trebuchet, sans-serif;
+    text-decoration: none;
+    background-color: #FFFFFF;
+    border: 2px solid #80c1ff;
+    color: #80c1ff;
+    padding: 10px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+}
+
+a.nav:hover, active {
+    color: black;
+    background-color: #ff3399;
+
 }
 
 #header {
+	float: right;
 	max-width: 275px;
-	margin-top: 20px;
-	margin-left: 35%;
+	margin-right: 150px;
 	text-align: center;
-	font-family: Arial, sans-serif;
-	color: cyan;
+	font-family: Trebuchet, sans-serif;
+	font-size-adjust: 0.8;
+	color: #003566;
 	position: static;
-    border: 3px solid #73AD21;
     border-radius: 5px;
+    display: inline;
+}
+
+#divAmahlia {
+	max-width: 450px;
+	margin-top: 5%;
+	margin-left: 5%;
+	margin-bottom: 10px;
+	font-family: Trebuchet, sans-serif;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-align: left;
+	display: inline-block;
+	
 }
 
 .div {
-	max-width: 300px;
+	max-width: 450px;
 	position: left;
 	margin-left: 5%;
-	font-family: Verdana, sans-serif;
-	padding: 15px;
+	margin-bottom: 10px;
+	font-family: Trebuchet, sans-serif;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
 	text-align: left;
-	border-radius: 5px;
+	
 }
 
-#divVisual {
-	margin-left: 50%;
-	margin-top: 150px;
-	max-width: 275px;
-	position: static;
-    border: 3px solid #73AD21;
-    border-radius: 5px;
-    text-align: center;
+.divImage1 {
+	float: left;
+	margin-left: 2%;
+	font-family: Trebuchet, sans-serif;
+	text-align: center;
+	display: inline-block;
+	max-width: 300px;
+	width:300px; 
+	height:157px;
+	background-image: url("C:\Users\students\Documents\scratch.png.png");
 }
+
+.divImage2 {
+	float: left;
+	margin-left: 2%;
+	font-family: Trebuchet, sans-serif;
+	text-align: center;
+	display: inline-block;
+	max-width: 300px;
+}
+
+.divImage3 {
+	float: left;
+	margin-left: 2%;
+	font-family: Trebuchet, sans-serif;
+	text-align: center;
+	display: inline-block;
+	max-width: 300px;
+}
+
+.divImage4 {
+	float: left;
+	margin-left: 2%;
+	font-family: Trebuchet, sans-serif;
+	text-align: center;
+	display: inline-block;
+	max-width: 300px;
+}
+
+img {
+	opacity: 0.5;
+}
+
+a.img:link, visited {
+    color: blue;
+    font-family: Trebuchet, sans-serif;
+    text-decoration: none;
+    background-color: #FFFFFF;
+    border: 2px solid #80c1ff;
+    color: #80c1ff;
+    padding: 10px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+}
+
+a.img:hover, active {
+    color: black;
+    background-color: #ff3399;
